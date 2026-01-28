@@ -32,7 +32,7 @@ int main()
     cout<<"\nExample 3: console in,cin "<<endl;
     float n= 3.5;
     string lastname;
-    cout<<"Enter a last name"
+    cout<<"Enter a last name";
     //put username by person
     cin>>lastname;
 
