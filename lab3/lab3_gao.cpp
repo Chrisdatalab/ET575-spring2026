@@ -11,14 +11,14 @@
 
 using namespace std;
 
-main()
+int main()
 {
 
 
     cout<<"\n----------Example 3--------------"<<endl;
 
 
-    int number = 10.9;
+    int number = 10;
     float n = 7.8;
 
     cout<<"number is : "<<number<<endl;
