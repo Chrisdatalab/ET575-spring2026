@@ -76,6 +76,21 @@ int main()
     cout<<"Index for a = "<<index_a<<endl;
     //find the index for 'act'
     cout<<"Index for 'act = "<<word.find("act")<<endl;
+    cout<<"\n---------EXERCISE---------"<<endl;
+    cin>>word;
+    /*
+        print the 2nd character of the word. 
+        find and print the length of the word.
+        replace 2 characters from the 3rd character with "-- $ --" . Print result
+        remove 3 characters from the end of the message. Print result
+    
+    */
+    cout<<"print the 2nd character of the word = "<<word[1]<<endl;
+    cout<<"find and print the length of the word = "<<word.length()<<endl;
+    cout<<"replace 2 characters from the 3rd character = "<<word<<endl;
+    cout<<"remove 3 characters from the end of the message = "<<word.erase(word.length()-4,3)<<endl;
+
+
     
     return 0;
 }
