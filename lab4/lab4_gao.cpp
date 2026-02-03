@@ -85,10 +85,10 @@ int main()
         remove 3 characters from the end of the message. Print result
     
     */
-    cout<<"print the 2nd character of the word = "<<word[1]<<endl;
-    cout<<"find and print the length of the word = "<<word.length()<<endl;
-    cout<<"replace 2 characters from the 3rd character = "<<word<<endl;
-    cout<<"remove 3 characters from the end of the message = "<<word.erase(word.length()-4,3)<<endl;
+    cout<<"2nd character: \t"<<word[1]<<endl<<endl;
+    cout<<"word has \t"<<word.length()<<characters<<endl<<endl;
+    cout<<"Replace word: \t"<<word<<endl<<endl;
+    cout<<"Remove end characters:\t"<<word.erase(word.length()-4,3)<<endl;
 
 
     
