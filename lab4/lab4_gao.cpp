@@ -85,10 +85,13 @@ int main()
         remove 3 characters from the end of the message. Print result
     
     */
-    cout<<"2nd character: \t"<<word[1]<<endl<<endl;
-    cout<<"word has \t"<<word.length()<<characters<<endl<<endl;
-    cout<<"Replace word: \t"<<word<<endl<<endl;
-    cout<<"Remove end characters:\t"<<word.erase(word.length()-4,3)<<endl;
+     cout << "2nd character: \t" << word[1] << endl
+         << endl;
+    cout << "word has \t" << word.length() << "  characters" << endl
+         << endl;
+    cout << "Replace word: \t" << word.replace(2, 2, "-- $ --") << endl
+         << endl;
+    cout << "Remove end characters:\t" << word.erase(word.length() - 3, 3) << endl;
 
 
     
