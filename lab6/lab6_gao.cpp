@@ -1,6 +1,6 @@
 /*
     weiting gao
-    lab6 , if, if-else
+    lab4 , if, if-else
     Fed 4, 2026
 */
 #include <iostream>
@@ -132,9 +132,8 @@ int main()
     {
         gpa = 'D';
     }
-    else
+    else if(grade<59)
         gpa = 'F';
-        
 
     // print result
     cout << "final_exam:\t" << final_exam << endl
