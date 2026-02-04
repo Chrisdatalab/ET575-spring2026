@@ -136,15 +136,8 @@ int main()
         gpa = 'F';
 
     // print result
-    cout << "final_exam:\t" << final_exam << endl
-         << endl;
-    cout << "labs\t\t" << labs << endl
-         << endl;
-    cout << "homework\t" << homework << endl
-         << endl;
-    cout << "grade\t\t" << grade << endl
-         << endl;
-    cout << "gpa\t\t" << gpa << endl
+    
+    cout << "A final grade of "<<grade<<" is equivalent to a GPA of "<< gpa << endl
          << endl;
 
     return 0;
