@@ -1,6 +1,6 @@
 /*
     weiting gao
-    lab4 , if, if-else
+    lab6 , if, if-else
     Fed 4, 2026
 */
 #include <iostream>
