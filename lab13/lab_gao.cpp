@@ -28,5 +28,11 @@ int main(){
     int area_rec=areaRectangle(length,width);
     cout<<area_rec<<endl;
     printarea(length,width,area_rec);
+    cout<<"\n--exercise---"<<endl;
+    int a;
+    cout<<"Enter a number: ";
+    cin>>a;
+    bool b=checkEven(a);
+    print_checkEven(a,b);
     return 0;
 }

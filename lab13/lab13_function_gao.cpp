@@ -58,3 +58,17 @@ int areaRectangle(int length,int width){
 void printarea(int length,int width,int area){
     cout<<"The area of a rectangle with "<<length<< " and "<<width<< " is "<<area<<endl;
 }
+//exercise
+bool checkEven(int n){
+    if(n%2==0)
+        return true;
+    return false;
+}
+void print_checkEven(int n,bool b){
+    string value;
+    if(b==0)
+        value="No";
+    else
+        value="Yes";
+    cout<<"Is "<<n<<" even? "<<value<<endl;
+}
