@@ -66,7 +66,7 @@ int collectNumber(){
     //recursive function to validate if a is positive
     if(n<=0){
         cout<<"Error"<<endl;
-        collectNumber();
+        return collectNumber();
     }
     else{
         return n;
@@ -89,7 +89,7 @@ int collPosnuber(){
     cin>>n;
     if(n<=0){
         cout<<"Error"<<endl;
-        collPosnuber();
+        return collPosnuber();
     }
     else{
         return n;
@@ -99,5 +99,5 @@ float getDistance(int x1,int y1,int x2,int y2){
     return sqrt(pow((x1-x2),2)+pow((y1-y2),2));
 }
 void printDistance(int x1,int y1,int x2,int y2,float d){
-    cout<<"The distance of points("<<x1<<","<<y1<<") and ("<<x2<<","<<y2<<")";
+    cout<<"The distance of points("<<x1<<","<<y1<<") and ("<<x2<<","<<y2<<") is "<<d<<endl;
 }

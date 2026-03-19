@@ -24,8 +24,8 @@ int main(){
     cout<<"\n----exercise: ----"<<endl;
     int x1,x2,y1,y2;
     x1=collPosnuber();
-    x2=collPosnuber();
     y1=collPosnuber();
+    x2=collPosnuber();
     y2=collPosnuber();
     printDistance(x1,y1,x2,y2,getDistance(x1,y1,x2,y2));
     return 0;
