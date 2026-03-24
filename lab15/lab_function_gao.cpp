@@ -34,3 +34,15 @@ bool matchdices(int roll1,int roll2){
 void printdices(int roll1,int roll2,bool result){
     cout<<"Is "<<roll1<<" the same as "<<roll2<<" ? "<<result<<endl;
 }
+// exercise
+int get_roll(){
+    return rand()%6+1;
+}
+bool check_snake(int a,int b){
+    return a==b;
+}
+void print_result(bool r){
+    if(r==true)
+        cout<<"congrats! You got a snake eyes"<<endl;
+    cout<<"Better luck next time"<<endl;
+}

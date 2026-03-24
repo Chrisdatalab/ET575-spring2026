@@ -22,6 +22,9 @@ int main(){
     int roll2=rolidice();
     bool resultmatch=matchdices(roll1,roll2);
     printdices(roll1,roll2,resultmatch);
-    
+    cout<<"\n----exercise-----"<<endl;
+    int a=get_roll();
+    int b=get_roll();
+    print_result(check_snake(a,b));
     return 0;
 }
