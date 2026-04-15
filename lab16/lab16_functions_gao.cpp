@@ -69,6 +69,54 @@ void introarray(){
     cout<<"The first name is "<<names[0]<<endl;
 
 
+} 
+    //cout<<"\n---example 4: length of an array----"<<endl;
+void lengtharray(){
+        //sizeof function returns the number of bytes of value
+        cout<<"character = "<<sizeof(char)<<endl;
+        cout<<"string = "<<sizeof(string)<<endl;
+        cout<<"integer = "<<sizeof(int)<<endl;
+        cout<<"float = "<<sizeof(float)<<endl;
+        cout<<"double = "<<sizeof(double)<<endl;
+        // array
+        int number[]={2,7,9,-10,3};
+        cout<<"length of arraynumbers = "<<sizeof(number);
+}
+    //cout<<"\n---example 5: loop array----"<<endl;
+void looparray(){
+    int s = 5;
+    int arr[s] = {1, 2, 3, 4, 5};
+    // create a pointer here
+    int *ptr = arr;
+    // Loop through the array using pointer
+    for (int index = 0; index < s; index++)
+    {
+        // Accessing elements using pointer arithmetic
+        cout << "Value at index " << index << ": " << *(ptr + index)<< endl;
+    }
+}
+    //cout<<"\n---example 6: pass an  array to a function----"<<endl;
+void fillup(int arraysize,int arrnumbers[]){
+    for(int index=0;index<arraysize;index++){
+        cout<<"Enter a number: ";
+        cin>>arrnumbers[index];
+    }
+}
+// function to print all data is an array
+void printarray(int arraysize,int arrnumbers[]){
+    for(int index=0;index<arraysize;index++){
+        cout<<arrnumbers[index]<<'\t';
+    }
+    cout<<endl;
+}
+// function to find the MAX number in an array
+int maxnumber(int arraysize,int *arrnumbers){
+    int maxnum=arrnumbers[0];
+    for(int index=0;index<arraysize;index++){
+        if(maxnum<arrnumbers[index])
+            maxnum=arrnumbers[index];
+    }
+    return maxnum;
 }
 void exercise(){
     // exercise
@@ -87,6 +135,5 @@ void exercise(){
         }
     }
     cout<<"The maximum score is = "<<MAX_score<<endl;
-
 }
-   
+  
