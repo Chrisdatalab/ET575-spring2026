@@ -128,12 +128,12 @@ void exercise(){
     scores[2] = 75;
     scores[3] = 88;
     scores[4] = 100;
-    int MAX_score=scores[0];
+    int MIN_score=scores[0];
     for(int i=0;i<5;i++){
-        if(MAX_score<scores[i]){
-            MAX_score=scores[i];
+        if(MIN_score>scores[i]){
+            MIN_score=scores[i];
         }
     }
-    cout<<"The maximum score is = "<<MAX_score<<endl;
+    cout<<"The minimum score is = "<<MIN_score<<endl;
 }
   

@@ -33,7 +33,8 @@ int main(){
     // print the max value
     int m=maxnumber(s,numbers);
     cout<<"The max number is "<<m<<endl;
-    return 0;
+    
     cout<<"\n---exercise----"<<endl;
     exercise();
+    return 0;
 }
