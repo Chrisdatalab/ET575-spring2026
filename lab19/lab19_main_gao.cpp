@@ -12,9 +12,10 @@ int main(){
     cout<<"------exercise-------\n";
     const int ArrayLength = 5;
     int b[ArrayLength];
-    int ClosestArray[ArrayLength];
     int PosArrayLength=0;
-    collectnumber(b,&Pos,ArrayLength);
+    collectnumber(b,PosArrayLength,ArrayLength);
     float n=Averagenumber(b,PosArrayLength);
+    int cloestnum=Closestmean(b,PosArrayLength,n);
+    display(n,cloestnum);
     return 0;
 }
