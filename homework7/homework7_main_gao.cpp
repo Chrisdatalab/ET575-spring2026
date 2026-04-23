@@ -4,7 +4,7 @@
     lab19 exercise
 */
 #include<iostream>
-#include "lab19_function_gao.cpp"
+#include"homework7_function_gao.cpp"
 using namespace std;
 
 int main(){

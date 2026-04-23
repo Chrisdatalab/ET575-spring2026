@@ -1,7 +1,7 @@
 /*
     weiting gao
     April 22, 2026
-    2D arrays
+    lab 19, 2D arrays
 */
 #include<iostream>
 using namespace std;
@@ -41,6 +41,7 @@ void populate(int array_random[][COL],int ROW,int COL){
         for(int col=0;col<COL;col++){
             array_random[row][col]=rand()%101;
         }
+    }
 }
 void printvaluearray(int array_random[][COL],int ROW,int COL){
     for(int row=0;row<ROW;row++){
