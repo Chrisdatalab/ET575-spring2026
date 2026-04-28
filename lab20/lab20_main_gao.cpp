@@ -22,5 +22,9 @@ int main(){
     cout<<"--------example 4: appand files---------\n"<<endl;
     appendfile("samplefile.txt", "student's name" );
 
+    cout<<"--------exercise---------\n"<<endl;
+    createfile("data_user.txt");
+    appfile("data_user.txt","dfghjkdfghjfghj");
+    Readfile("data_user.txt");
     return 0;
 }

@@ -8,3 +8,9 @@ rg45 te51
 0
 Game Over!
 
+3
+2
+1
+0
+Game Over!
+student's name

@@ -69,7 +69,7 @@ void writefile(string filename){
 }
 
 // example 4; append data into a existing file
-void appendfile(string filename, string ){
+void appendfile(string filename, string msg){
     ofstream fout;
     fout.open(filename,ios:: app);
     // append data to the file
@@ -77,7 +77,29 @@ void appendfile(string filename, string ){
     {
         fout<<i<<endl;
     }
-    fout<<"Game Over!\n"<<endl;
+    fout<<"Game Over!\n"<<msg<<endl;
     fout.close();   
+}
 
+// exercise
+void createfile(string filename){
+    ofstream fout;
+    fout.open(filename);
+    fout.close();
+}
+void appfile(string filename,string msg){
+    ofstream fout;
+    fout.open(filename,ios:: app);
+    fout<<msg<<endl;
+    fout.close();
+}
+void Readfile(string filename){
+    ifstream fin;
+    string line;
+    fin.open(filename);
+    while (getline(fin,line))
+    {
+        cout<<line<<endl;
+    }
+    fin.close();
 }
