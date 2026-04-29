@@ -26,5 +26,9 @@ int main(){
     createfile("data_user.txt");
     appfile("data_user.txt","dfghjkdfghjfghj");
     Readfile("data_user.txt");
+
+    cout<<"--------example 5: check if a file exist---------\n"<<endl;
+    
+    checkfile("samplefile.txt");
     return 0;
 }

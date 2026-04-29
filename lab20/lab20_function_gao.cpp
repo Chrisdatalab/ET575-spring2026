@@ -103,3 +103,21 @@ void Readfile(string filename){
     }
     fin.close();
 }
+// example 5: check if a file exist
+void checkfile(string filename){
+    ifstream fin;
+    fin.open(filename);
+
+    // if the file doesn't exist
+    if(fin.fail()){
+        cout<<"file "<<filename<<" doesn't exist!"<<endl;
+        exit(1);
+    }
+    // if the file exist, read all lines
+    string eachline;
+    while (getline(fin,eachline))
+    {
+        cout<<eachline<<endl;
+    }
+    fin.close();    
+}
