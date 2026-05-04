@@ -35,6 +35,7 @@ void countwords(string filename){
     fout.open("wordcounts.txt");
     fout<<num<<'\n'<<endl;
     fin.close();
+    fout.close();
 }
 void countEarth(string filename){
     int num=0;
@@ -53,6 +54,7 @@ void countEarth(string filename){
     }
     fout.open("wordcounts.txt",ios:: app);
     fout<<"The word ‘Earth’ appears "<<num<<" times in the document."<<endl;
+    fin.close();
     fout.close();
     cout<<num<<endl;
 }
